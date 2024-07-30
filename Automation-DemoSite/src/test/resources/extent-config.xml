@@ -1,0 +1,10 @@
+<configuration>
+    <reportName>My Test Report</reportName>
+    <documentTitle>Test Automation Report</documentTitle>
+    <encoding>utf-8</encoding>
+    <protocol>https</protocol>
+    <projectName>Sample Project</projectName>
+    <theme>standard</theme>
+    <timeStampFormat>MMM dd, yyyy HH:mm:ss</timeStampFormat>
+    <css>.badge-primary{background-color:#5A5AFF}</css>
+</configuration>

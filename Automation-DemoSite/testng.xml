@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="false" thread-count="5">
+	<listeners>
+		<listener class-name="baseClasses.MyListener"/>
+	</listeners>
+  <test thread-count="5" name="Test" >
+    <classes>
+      <!-- <class name="testCases.RegisterTest"/> -->
+      <!-- <class name="testCases.AlertTest"/>-->
+      <!-- <class name="testCases.WindowTest"/>-->
+      <!--<class name="testCases.FramesTest"></class>-->
+      <!--<class name="testCases.DatePickerTest"></class>-->
+      <class name="testCases.SelectableTest"></class>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
